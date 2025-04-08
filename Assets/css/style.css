@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.bg-color {
+  background: #253956;
+  height: 115vh;
+}
+.bg-color .container ul li {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.bg-color .container .top-log h2 {
+  font-size: 2vw;
+  font-weight: 600;
+}
+.bg-color .container .hello-title {
+  font-size: 3vw;
+  font-weight: 650;
+}
+.bg-color .container .hello-title span {
+  font-weight: 650;
+  color: #ffa800;
+}
+.bg-color .container .hello-para {
+  font-size: 1.1vw;
+}
+.bg-color .container .hello-para span {
+  color: #00ff57;
+  font-weight: 600;
+}
+.bg-color .container .hello-btn {
+  border: 1px solid white;
+  color: aliceblue;
+  border-radius: 8px;
+  font-size: 1.5vw;
+  padding: 8px 12px;
+}
+.bg-color .container .top-profile-photo {
+  height: 40vh;
+  border: 2px solid yellow;
+}
+.bg-color .container .top-content {
+  margin-top: 10%;
+}
+
+
+.bg-color-3 .container .row .web-img{
+  border-radius: 5px;
+  width: 300px;
+  height: 20vh;
+}
+.bg-color-3 .container .row .front{
+padding-top: 3vh;
+}
+@media screen and (max-width: 1280px) {
+  .bg-color .container .top-content {
+    margin-top: 11%;
+  }
+  .bg-color .container .hello-title {
+    font-size: 5vw;
+  }
+  .bg-color .container .hello-para {
+    font-size: 2.1vw;
+  }
+  .bg-color .container .hello-btn {
+    border: 2px solid white;
+    color: aliceblue;
+    /* border-radius: 8px; */
+    font-size: 2vw;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bg-color .container .top-content {
+    margin-top: 3%;
+  }
+  .bg-color-3 .container .row .web-img{
+    height: 27vh;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .bg-color .container .hello-title {
+    font-size: 3vw;
+  }
+  .bg-color .container .hello-para {
+    font-size: 1.7vw;
+  }
+  .bg-color .container .top-profile-photo {
+    height: 30vh;
+    border: 2px solid yellow;
+  }
+  .bg-color .container .hello-btn {
+    font-size: 2.2vw;
+    padding: 9px 16px;
+  }
+  .bg-color .container .top-log h2 {
+    font-size: 3vw;
+  }
+  .bg-color .container ul li {
+    font-size: 1.8vw;
+  }
+  .bg-color-3 .container .row .web-img{
+    height: 13vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg-color .container ul li {
+    font-size: 1.9vw;
+  }
+  .bg-color .container .top-profile-photo {
+    height: 29vh;
+  }
+  .bg-color .container .hello-btn {
+    font-size: 2.4vw;
+    padding: 10px 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bg-color .container .row .botom-phot {
+    display: none;
+  }
+  .bg-color .container .hide-menu{
+    display: none;
+  }
+  .bg-color .container .top-profile-photo {
+    height: 27vh;
+    margin-bottom:5px;
+}
+.row {
+    
+    text-align: center;
+}
+.bg-color .container .hello-title {
+    font-size: 7vw;
+}
+.bg-color .container .hello-para {
+    font-size: 3.7vw;
+}
+.bg-color-3 .container .row .web-img{
+  height: 27vh;
+}
+}
+.hide-desktop .dropdown-menu{
+  min-width: 350px;
+    padding: 10px;
+    /* height: 80px; */
+}
+
+.hide-desktop .dropdown-toggle{
+  font-size: 13px;
+
+}
+@media screen and (min-width: 600px) {
+  .bg-color .container .row .top-phot {
+    display: none;
+  }
+  .bg-color .container .hide-desktop{
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .bg-color .container .top-log h2 {
+    font-size: 4vw;
+  }
+  .bg-color .container ul li {
+    font-size: 3vw;
+  }
+  .bg-color .container .hello-title {
+    font-size: 8vw;
+  }
+  .bg-color .container .hello-para {
+    font-size: 3.5vw;
+  }
+  .bg-color .container .hello-btn {
+    font-size: 4vw;
+    margin-bottom: 25px;
+  }
+  .bg-color .container .top-profile-photo {
+    height: 35vh;
+    margin-top: 33px;
+  }
+}
+.bg-color-2 .container .row .btn {
+  background-color: #253956;
+}
+.bg-color-2 .container .row .About {
+  /* background-color: #253956; */
+  color: #253956;
+  font-size: 3vw;
+
+}
+.bg-color-2 {
+  /* height: 60vh; */
+}
+
+.bg-color-2 .container .my-phot {
+  border: 2px solid #253956;
+  /* height: 45vh; */
+  /* width: 85%; */
+}
+.bg-color-2 .container .my-para span {
+  color: #ff0000;
+  font-weight: 600;
+}
+.bg-color-2 .container .btn {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 600;
+}
+
+.bg-color-2 .container .row .para {
+  text-align: left;
+  font-size: 17px;
+}
+@media screen and (max-width: 1280px) {
+  .bg-color-2 .container .row .para {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .bg-color-2 .container .row .para {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 912px) {
+  .bg-color-2 .container .row .para {
+    /* font-size: 1px; */
+    text-align: justify;
+    font-size: 3.5vw;
+
+    /* height: 100vh; */
+  }
+}
+.bg-color-3{
+    background-color: #253956;
+    color: beige;
+}
+.bg-color-3 .container{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bg-color-3 .container .top-export{
+    font-size:2.5vw;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.bg-color-3 .container .top-export span{
+    color:#FFA800 ;
+}
+@media screen and (max-width:600px){
+    .bg-color-3 .container .top-export {
+        font-size: 6.5vw;
+    }
+}
+.contact-sec-bg{
+ background-image: url("../Images/back-img.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 2vw;
+}
+.contact-sec-bg .container span{
+  color: #FFA800;
+}
+.last{
+  background-color:#253956 ;
+  color: wheat;
+  text-align: center;
+  font-size: 2vw;
+}
+@media screen and (max-width:600px){
+  .contact-sec-bg{
+    font-size: 2.5vw;
+  }
+  .last{
+    font-size: 2.5vw;
+  }
+
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<script src="Assets/Javascript/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <section class="bg-color">
+        <div class="container text-light">
+            <div class="d-flex justify-content-between  pt-5 pb-5">
+                <div class="top-log">
+                    <h2>Alok Kumar Jena</h2>
+                </div>
+                <div class="hide-menu">
+                    <ul class="d-flex gap-5  ">
+                        <li >Home</li>
+                        <li onclick="About_me()">About</li>
+                        <li onclick="Expert_sec('expert_sec')">Services</li>
+                        <li onclick="Contact_sec('contact_sec')">Contact</li>
+                    </ul>
+                </div>
+                <div class="hide-desktop">
+                    <!-- w3 school ru dropdown ru anichhe.data-bs-toggle for JS.should use 'class' in parent -->
+                    <i class="bi bi-list btn btn btn-primary dropdown-toggle " data-bs-toggle="dropdown"></i>
+                    <ul class=" mm dropdown-menu">
+                        <li >Home</li>
+                        <li onclick="About_me()">About</li>
+                        <li onclick="Expert_sec('expert_sec')">Services</li>
+                        <li onclick="Contact_sec('contact_sec')">Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center top-content">
+                <div class="col-lg-4 top-phot">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="Assets/Images/profile-pic (6).png" alt="alok "
+                            class="img-fluid rounded-circle top-profile-photo">
+                    </div>
+                </div>
+                <div class="col-lg-8 ">
+                    <h1 class="hello-title lh-base">Hello ! <br>
+                        I Am <span>Alok kumar Jena</span></h1>
+                    <p class="hello-para mt-3">
+                        A  <span> MERN Stack Developer! </span>I specialize in building dynamic and scalable web applications using MongoDB, Express.js, React.js, and Node.js. I have also worked with C and C++ in my learning journey.
+
+                        
+                        
+                       
+                    </p>
+                   <a href="Assets/Document/Resume.pdf " download="my Resume"><button class="btn hello-btn mt-5">Download Resume</button></a> 
+
+                </div>
+                <div class="col-lg-4 botom-phot">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="Assets/Images/profile-pic (6).png" alt="alok "
+                            class="img-fluid rounded-circle top-profile-photo">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-color-2 mt-5 mb-5 " id="About_me">
+        <div class="container  ">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4">
+                    <img src="Assets/Images/IMG_20191203_084956.jpg" alt="" class=" img-fluid my-phot">
+                </div>
+                <div class="col-lg-8  my-para">
+                    <h2 class="About fw-bold mt-3">About Me</h2>
+                    <p class="para"> I am <span>Alok Kumar Jena</span>, Alok Kumar Jena, a passionate MERN Stack Developer with a strong foundation in programming. I have completed my Master of Computer Applications (MCA) from Gandhi Academy of Technology and Engineering, Berhampur, Odisha. During my academic journey, I gained proficiency in C, C++, Python, and JavaScript through coursework and hands-on projects.
+
+                        To further enhance my skills in full-stack development, I joined Skyskill Academy, where I have pursued MERN stack development. My focus is on building efficient, scalable, and user-friendly web applications using MongoDB, Express.js, React.js, and Node.js. I am eager to apply my knowledge and grow as a developer in the tech industry.
+                   <a href="tel:+918249718589"> <button class="btn text-light">Call Me</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-color-3" id="expert_sec">
+        <div class="container">
+            <div class="top-export">I'm <span>Export</span> On</div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div>
+                        <img src="Assets/Images/mern image.png" alt="App" width="100px" class="mb-3 mt-3 web-img">
+                    </div>
+                    <b>WEB DEVELOPMENT</b>
+
+                </div>
+                <div class="col-lg-4">
+
+                    <div><img src="Assets/Images/blog-ui-ux-150223 1 (1).png" alt="Web" class="mb-3 mt-3">
+                    </div>
+                    <b>UI/UX DESIGN</b>
+
+
+                </div>
+                <div class="col-lg-4 front">
+
+                    <div>
+                        <img src="Assets/Images/frontend.png" alt="UI" width="100px" class="mb-3 web-img">
+                    </div>
+                    <b>FRONTEND DEVELOPMENT</b>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact-sec-bg" id="contact_sec">
+        <div class="container">
+            <p>We want to stay in touch with you please follow me on social media so <br> we can <span>keep in
+                    touch</span> </p>
+            <div class="d-flex justify-content-center gap-3 mb-3">
+              <a href="https://www.facebook.com/">  <img src="Assets/Images/devicon_facebook.png" alt="facebook" class="img-fluid"></a>
+               <a href="https://www.linkedin.com/feed/"> <img src="Assets/Images/devicon_linkedin.png" alt="linkedin" class="img-fluid"></a>
+               <a href="https://www.instagram.com/"> <img src="Assets/Images/skill-icons_instagram.png" alt="insta" class="img-fluid"></a>
+               <a href="https://x.com/home"><img src="Assets/Images/xicon.png" alt="images" class="img-fluid" width="35px"></a> 
+
+            </div>
+            <p>8249718589</p>
+
+            <p>alokjena3896@gmail.com</p>
+        </div>
+    </section>
+</body>
+
+</html>
