@@ -53,7 +53,7 @@
 .bg-color-3 .container .row .web-img{
   border-radius: 5px;
   width: 300px;
-  height: 20vh;
+  height: 30vh;
 }
 .bg-color-3 .container .row .front{
 padding-top: 3vh;
@@ -74,6 +74,9 @@ padding-top: 3vh;
     /* border-radius: 8px; */
     font-size: 2vw;
     padding: 8px 12px;
+  }
+  .bg-color-3 .container .row .web-img{
+    height: 20vh;
   }
 }
 
